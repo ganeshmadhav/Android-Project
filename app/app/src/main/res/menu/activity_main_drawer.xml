@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_action_legislator"
+            android:title="@string/legislators" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_file"
+            android:title="@string/bills" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_speaker"
+            android:title="@string/committees" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_star_nofill"
+            android:title="@string/favorite" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="@string/about_me" />
+            <!--<item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>

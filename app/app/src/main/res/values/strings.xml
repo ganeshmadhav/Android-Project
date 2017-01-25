@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HomeWork9</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="legislators">Legislators</string>
+    <string name="bills">Bills</string>
+    <string name="committees">Committees</string>
+    <string name="favorite">Favorites</string>
+    <string name="other">Other</string>
+    <string name="about_me">About Me</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_me_about">MeAbout</string>
+</resources>

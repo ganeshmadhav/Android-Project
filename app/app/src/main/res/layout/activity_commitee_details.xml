@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_commitee_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.csci571.homework9.CommiteeDetails">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appBarLayout"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:backgroundTint="@color/colorDarkGrey"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:text="Committee ID:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="59dp"
+        android:id="@+id/textView20"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView21"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Parent Committee:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_marginTop="47dp"
+        android:id="@+id/textView23"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:text="Contact:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView24"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:text="Office:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginTop="37dp"
+        android:id="@+id/textView25"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="Text"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="21dp"
+        android:layout_marginEnd="21dp"
+        android:id="@+id/committeeinfo_id" />
+
+    <TextView
+        android:text="TextView"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView22"
+        android:layout_alignRight="@+id/namecomm_id"
+        android:layout_alignEnd="@+id/namecomm_id"
+        android:id="@+id/chamber_id" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_senate"
+        android:layout_alignTop="@+id/chamber_id"
+        android:layout_toLeftOf="@+id/chamber_id"
+        android:layout_toStartOf="@+id/chamber_id"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/chamber_image" />
+
+    <TextView
+        android:text="TextView"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView23"
+        android:layout_alignRight="@+id/chamber_id"
+        android:layout_alignEnd="@+id/chamber_id"
+        android:id="@+id/parent_id" />
+
+    <TextView
+        android:text="TextView"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView24"
+        android:layout_alignRight="@+id/parent_id"
+        android:layout_alignEnd="@+id/parent_id"
+        android:id="@+id/contctinfo_id" />
+
+    <TextView
+        android:text="TextView"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignRight="@+id/contctinfo_id"
+        android:layout_alignEnd="@+id/contctinfo_id"
+        android:id="@+id/office_infoid" />
+
+    <TextView
+        android:text="Chamber"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView22"
+        android:textStyle="normal|bold"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
+
+    <TextView
+        android:text="TextView"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:id="@+id/namecomm_id"
+        android:layout_width="200dp"
+        android:layout_alignBaseline="@+id/textView21"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignRight="@+id/committeeinfo_id"
+        android:layout_alignEnd="@+id/committeeinfo_id" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_star_nofill"
+        android:layout_above="@+id/committeeinfo_id"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/commstar"
+        android:background="@android:color/transparent" />
+
+</RelativeLayout>
